@@ -75,5 +75,23 @@ private:
 
 int main(int argc, const char * argv[]) {
 
+	cout << "Welcome to Chess! Press qq to quit\n";
+	Chess game;
+	game.draw();
+	
+	while (true) {
+		cout << endl << "Enter your move (origin space to dest space): " << endl;
+		char orig_letter; int orig_num;
+		char dest_letter; int dest_num;
+		cin >> orig_letter >> orig_num;
+		cin >> dest_letter >> dest_num;
+		
+		if (orig_letter == 'q')
+			return 0;
+		
+		game.make_move(orig_letter, orig_num, dest_letter, dest_num);
+		game.draw();
+	}
+	
 	return 0;
 }
