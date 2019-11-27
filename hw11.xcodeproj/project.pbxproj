@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FAA4BED8238E281B00D54CD1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAA4BED7238E281B00D54CD1 /* main.cpp */; };
+		FAA4BEDF238E2DF000D54CD1 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = FAA4BEDE238E2DF000D54CD1 /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		FAA4BED4238E281B00D54CD1 /* hw11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw11; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA4BED7238E281B00D54CD1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FAA4BEDE238E2DF000D54CD1 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		FAA4BED6238E281B00D54CD1 /* hw11 */ = {
 			isa = PBXGroup;
 			children = (
+				FAA4BEDE238E2DF000D54CD1 /* Makefile */,
 				FAA4BED7238E281B00D54CD1 /* main.cpp */,
 			);
 			path = hw11;
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA4BEDF238E2DF000D54CD1 /* Makefile in Sources */,
 				FAA4BED8238E281B00D54CD1 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
